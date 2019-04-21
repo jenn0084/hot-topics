@@ -1,0 +1,110 @@
+/*Border boxing added to the layout*/
+*
+{
+    box-sizing: border-box;
+}
+
+.container
+{
+    margin: 0 auto;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+main
+{
+    font-family: 'Anton', sans-serif;
+    margin: 0 auto;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 2rem;
+    color: #565656;
+}
+
+
+.logo
+{
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+
+ul{
+  margin: 0;
+  padding: 0;
+  background-color: #7f9fb2;
+    
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+
+}
+
+li a:hover
+{
+  background-color: #7f9fb2;
+    text-align: center;
+}
+
+
+
+/*paragraph tag*/
+p
+{
+    font-family: 'Pontano Sans', sans-serif;
+}
+
+/*links*/
+a
+{
+    color:#7f9fb2;
+    
+}
+
+/*styling footer tag for center alignment of text*/
+footer 
+{
+    text-align: center;
+}
+
+/*styling tagline*/
+h2
+{
+    background-color: antiquewhite;
+
+}
+
+/*styling h5 tag of title of cards*/
+h5
+{
+    text-align: center;
+    padding-top: 20px;
+}
+
+/*space between col*/
+.col-md-4
+{
+    padding: 10px;
+}
+
+.title h2
+{
+    font-family: 'Anton', sans-serif;
+    text-transform: uppercase;
+    background-color: #cccccc;
+    background-image: url("../img/title.jpg");
+    color: #FFFEFB;
+    padding: 60px;
+    font-size: 90px;
+    text-align: center;
+    
+}
+
